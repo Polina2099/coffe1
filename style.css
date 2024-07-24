@@ -1,0 +1,183 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin:0px; padding:0px; }
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+.container {
+        width: 1000px;
+        margin: 7 auto;
+    }
+    #main .container {
+        background: url(images/hhead.jpg) no-repeat; 
+    }
+    #logo {
+        float: left; 
+    }
+    #logo h1 {font-size: 40px; color: #935c44d7;font-family: Script;}
+    #tagline {
+        float: left;
+    }
+    #tagline h3 {font-size: 23px; color: #a26e57d7; font-family: Script; }
+    #tagline {
+        float: left;
+        padding-top: 10px;
+        padding-left: 60px;
+    }
+    ul#menu {
+        list-style: none;
+        padding-top: 30px;
+    }
+    ul#menu li a {
+        font-size: 20px;
+        font-family: Script;
+        color: #935c44d7;
+        text-decoration: none;
+    }
+    ul#menu li {
+        float: left;
+        padding-left: 35px;
+        padding-right: 90px;
+    }
+
+    #content h2 {
+            font-size: 36px;
+            color: #98614a;
+            font-family: Script;
+            padding-top: 35px;
+        }
+
+    #content h3 {
+            font-size: 36px;
+            color: #98614a;
+            font-family: Script;
+            padding-top: 35px;
+        }
+
+    #content h4 {
+            font-size: 36px;
+            color: #98614a;
+            font-family: Script;
+            padding-top: 35px;
+        }
+        
+    #content p {
+        font-size: 20px;
+        color: #595858;
+        font-family: Script;
+        padding-top: 25px;
+    }
+
+    #content {
+        width: 510px;
+        float: right;
+            }
+
+    #sidebar {
+        float: left; 
+            }
+
+    #sidebar h3 {
+            font-size: 24px;
+            text-align: center;
+            font-family: Script;
+            color: #595858;
+            padding-bottom: 60px;
+            padding-left: 115px;
+    }
+
+    #sidebar ul li a {
+        font-size: 18px;
+        color: #935c44d7;
+        font-family: Script;
+    }
+
+    #sidebar ul {
+        list-style: none;
+        padding-bottom: 5px;
+    }
+
+    #sidebar {
+            float: left;
+            margin-left: 3px;
+            margin-top: 45px;
+            background: #e4d6cfd7;
+            border: 5px solid #935c44d7;
+            padding: 15px;
+        }
+
+    #history h2 {
+        font-size: 36px;
+        color: #98614a;
+        font-family: Script;
+        padding-top: 35px;
+    }
+        
+    #history p {
+        font-size: 20px;
+        color: #595858;
+        font-family: Script;
+        padding-top: 25px;
+    }
+
+    #text h2 {
+        font-size: 36px;
+        color: #98614a;
+        font-family: Script;
+        padding-top: 35px;
+    }
+        
+    #text p {
+        font-size: 20px;
+        color: #595858;
+        font-family: Script;
+        padding-top: 25px;
+    }
+
+    #drinks .content {
+        display: flex;
+    }
+
+    #drinks .text {
+        flex: 1;
+    }    
+
+    #drinks .image1 {
+        margin-left: 50px; /* расстояние между текстом и картинкой */
+    }
+
+    #footer p {
+        font-size: 20px;
+        color: #595858;
+        font-family: Script;
+        padding-top: 5px;
+
+    }
+
+    #footer h5 {
+        font-size: 20px;
+        color: #98614a;
+        font-family: Script;
+        padding-top: 20px;
+    }
+
+    #footer ul li a {
+        font-size: 18px;
+        color: #595858;
+        font-family: Script;
+    }
+
+    #feed h2 {
+        font-size: 20px;
+        color: #595858;
+        font-family: Script;
+        padding-top: 5px;
+
+    }
+
+    #feed p {
+        font-size: 20px;
+        color: #595858;
+        font-family: Script;
+        padding-top: 6px;
+
+    }
+
