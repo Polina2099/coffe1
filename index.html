@@ -1,0 +1,136 @@
+<html>
+<html lang="en"></html>
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Site</title>
+<style>
+    body {
+      background-image: url(images/hhead.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* фон зафиксированый при прокрутке */
+    }
+    hr {
+    border: none;
+    border-top: 4px solid #595858; /* цвет и толщина линии */
+    }
+    .slideshow {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    img {
+        width: 40%; /* Уменьшение ширины изображения до 50% */
+        height: auto; /* Поддержание пропорций для высоты */
+        justify-content: center;
+        align-items: center;
+    }
+  
+
+
+</style>
+
+<link rel="manifest"
+href="https://progressier.app/RnuJagIfpVT2HaXqWW2v/progressier.json"/>
+<script defer src="https://progressier.app/RnuJagIfpVT2HaXqWW2v/script.js">
+</script>
+
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div id="main">
+    <div class="container">
+    <div id="header">
+     <div id="logo">
+        <h1>Coffe</h1>
+    </div>
+
+    <div id="tagline">
+        <h3>Кофе - это не вопрос жизни и смерти. Это важнее.</h3>
+    </div>
+
+    <div style="clear:both"></div>
+    <hr>
+
+    <ul id="menu">
+        <li><a href="main.html">О нас</a></li>
+        <li><a href="drinks.html">Полулярные напитки</a></li>     
+        <li><a href="#">Доставка</a></li>
+        <li><a href="feedback.html">Обратная связь</a></li>
+    </ul>
+    <div style="clear:both"></div>
+
+    
+    <hr>
+
+    <main>
+        
+        <div id="content">
+            <h2> <a href="history.html">История создания кофе</a></h2>
+            <p>Кофе – один из самых популярных напитков на планете, чаще кофе пьют лишь воду и чай, а количество сделок в мире уступает лишь нефти. Примерно 75% россиян хотя бы раз в неделю начинают свой день с чашки вкусного кофе. Успех напитка связан с его уникальным вкусом, эффектом бодрости после его употребления. </p>
+            <h4>Легенда</h4>
+            <p>Легенда о создании кофе связана с пастушкой по имени Каллисто, которая обнаружила, что ее козы стали более энергичными после того, как паслись на кофейных кустах. После этого она рассказала об этом священнику, который приготовил настой из кофейных зерен, чтобы оставаться бодрствующим во время молитв. Именно так началось использование кофе в древности. Впоследствии кофе стал популярным напитком в странах Востока и, благодаря арабским торговым караванам, распространился по всему миру. В настоящее время кофе является одним из самых популярных напитков на планете, предлагая широкий выбор сортов и методов приготовления.</p>
+            
+        
+            
+        <div style="clear:both"></div>
+    </main>
+
+    <div class="slideshow">
+        <img src="image1.jpg" alt="Image 1">
+    </div>
+      
+    <script>
+    var images = ['image1.jpg', 'image2.jpeg', 'image3.jpg'];
+    var currentIndex = 0;
+    var slideshow = document.querySelector('.slideshow');
+    var image = slideshow.querySelector('img');
+    
+    function showNextImage() {
+      currentIndex++;
+      if (currentIndex >= images.length) {
+        currentIndex = 0;
+      }
+      image.src = images[currentIndex];
+    }
+    
+    setInterval(showNextImage, 3000); // изменять изображение каждые 3 секунды
+    </script>
+
+    <div id="sidebar">
+        <h3>Меню</h3>
+        <script>
+        function openMenu(node){
+            var subMenu =
+        node.parentNode.getElementsByTagName("ul")[0];
+            subMenu.style.display == "none" ?
+        subMenu.style.display = "block" : subMenu.style.display =
+        "none";
+        }
+        </script>
+        
+        <ul id="mainmenu">
+            <li><a href="#" onclick="openMenu(this);return false">Меню</a>
+                <ul>
+                    <li><a href="#">Капучино</a></li>
+                    <li><a href="#">Латте</a></li>
+                    <li><a href="#">Американо</a></li>
+                    <li><a href="#">Матча латте</a></li>
+                    <li><a href="#">Чай - латте</a></li>
+                </ul>
+            </li> 
+        </ul>
+    </div>
+
+
+
+
+</body>
+
+</html>
